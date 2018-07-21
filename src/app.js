@@ -1,6 +1,33 @@
-class Client {
-    constructor(nome,email){
-        this.nome = nome;
-        this.email = email;
-    }
+//###################################
+// // Classe JS
+// class Color{
+//     constructor(codeColor,nameColor){
+//         this.codeColor = codeColor;
+//         this.nameColor = nameColor;
+//     };
+//     getColor(){
+//         return {codeColor:this.codeColor, nameColor:this.codeColor};
+//     };
+// }
+
+// let red = new Color("red","Red");
+
+// console.log(red.getColor());
+
+//###################################
+// // String Template
+// let name = "Jorge";
+// let age = 27;
+// let text = `
+//     Nome: ${name}
+//     Idade: ${age}
+// `;
+// console.log(text);
+
+//###################################
+// Valores Default -- define um valor default para o parametro
+// na declaração da função
+function test(valueA,valueB = 4){
+    return valueA + valueB;
 }
+console.log(test(5))
